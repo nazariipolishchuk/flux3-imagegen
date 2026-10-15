@@ -1,0 +1,12 @@
+{
+  "name": "flux3-imagegen",
+  "description": "Local FLUX 3 Image Klein image generation for Claude Code and other MCP agents.",
+  "owner": { "name": "Nazar Polishchuk", "url": "https://github.com/nazariipolishchuk" },
+  "plugins": [
+    {
+      "name": "flux3-imagegen",
+      "source": "./",
+      "description": "Local FLUX 3 Image Klein generation for agents: prompt-writing skill + MCP tool."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "flux3": {
+      "command": "uv",
+      "args": ["run", "--script", "${CLAUDE_PLUGIN_ROOT}/mcp_server.py"],
+      "env": { "FLUX3_COMFY_DIR": "${user_config.comfy_dir}" }
+    }
+  }
+}

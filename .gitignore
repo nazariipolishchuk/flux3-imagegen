@@ -1,0 +1,7 @@
+ComfyUI_windows_portable/
+_downloads/
+.venv/
+logs/
+out/
+__pycache__/
+*.safetensors

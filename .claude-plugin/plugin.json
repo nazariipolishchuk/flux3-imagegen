@@ -1,0 +1,19 @@
+{
+  "name": "flux3-imagegen",
+  "displayName": "FLUX 3 ImageGen (local)",
+  "version": "0.1.0",
+  "description": "Local image generation and editing with FLUX 3 Image Klein through a headless ComfyUI: a skill that writes the prompt and reviews results, plus an MCP tool for any agent.",
+  "author": { "name": "Nazar Polishchuk", "url": "https://github.com/nazariipolishchuk" },
+  "repository": "https://github.com/nazariipolishchuk/flux3-imagegen",
+  "homepage": "https://github.com/nazariipolishchuk/flux3-imagegen",
+  "license": "MIT",
+  "keywords": ["image-generation", "flux", "comfyui", "mcp", "local-ai", "game-assets"],
+  "userConfig": {
+    "comfy_dir": {
+      "type": "directory",
+      "title": "ComfyUI portable folder",
+      "description": "Path to ComfyUI_windows_portable (v0.41+) with the FLUX 3 Klein files in its models folders. Leave empty if you run your own ComfyUI on port 8188.",
+      "default": ""
+    }
+  }
+}
